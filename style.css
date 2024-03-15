@@ -1,0 +1,58 @@
+*{
+   background-color: bisque; 
+   margin: 12px;
+   padding: 10px;
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 30%;
+    height: auto;
+}
+.container h1{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: black;
+    cursor: pointer;
+}
+input{
+    border: none;
+    background-color: rgb(187, 183, 183);
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="text"]{
+    width: 70%;
+}
+button{
+    background-color:rgb(194, 233, 194);
+    border: none;
+    cursor: pointer;
+}
+#taskList{
+    background-color:whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
